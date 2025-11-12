@@ -11,3 +11,12 @@
 # 5) Imprime a mensagem personalizada incluindo o nome do usuário, salário e bônus
 
 # Bônus: Quantos bugs e riscos você consegue identificar nesse programa?
+
+try:
+    nome = str(input('digite seu nome: '))
+    salario = float(input('informe seu salario: '))
+    bonus = float(input('informe o bonus em %: '))
+    valor_bonus = (bonus / 100) * salario
+    print(f'{nome} tem {salario} de salario e recebeu {valor_bonus} de bonus.')
+except Exception as e:
+    print(e)
