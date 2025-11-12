@@ -27,15 +27,36 @@
 # print(resultado)
 
 # 5. Escreva um programa que calcule o quadrado de um número fornecido pelo usuário.
-num = int(input('informe o numero: '))
-print(f'O quadrado do numero informado é: {num ** 2}')
+# num = int(input('informe o numero: '))
+# print(f'O quadrado do numero informado é: {num ** 2}')
+
 # #### Números de Ponto Flutuante (`float`)
 
 # 6. Escreva um programa que receba dois números flutuantes e realize sua adição.
+# num1 = float(input('num1: '))
+# num2 = float(input('num2: '))
+# print(f'A soma é: {num1 + num2}')
+
 # 7. Crie um programa que calcule a média de dois números flutuantes fornecidos pelo usuário.
+# num1 = float(input('num1: '))
+# num2 = float(input('num2: '))
+# print(f'A media dos numeros é: {(num1 + num2) / 2}')
+
 # 8. Desenvolva um programa que calcule a potência de um número (base e expoente fornecidos pelo usuário).
+# base = float(input('informe a base: '))
+# potencia = float(input('informe a potencia: '))
+# print(f'A potencia de {base} é: {base ** potencia}')
+
 # 9. Faça um programa que converta a temperatura de Celsius para Fahrenheit.
+# celsius = float(input('informe a temperatura em celsius: '))
+# convertido = (celsius * 1.8) + 32
+# print(convertido)
+
 # 10. Escreva um programa que calcule a área de um círculo, recebendo o raio como entrada.
+import math
+raio = float(input('informe o raio: '))
+area = math.pi * (raio ** 2)
+print(area)
 
 # #### Strings (`str`)
 
