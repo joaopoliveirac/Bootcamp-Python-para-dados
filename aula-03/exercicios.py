@@ -1,3 +1,4 @@
+from datetime import time
 # Exercício 1: Verificação de Qualidade de Dados
 # Você está analisando um conjunto de dados de vendas e precisa garantir 
 # que todos os registros tenham valores positivos para `quantidade` e `preço`. 
@@ -15,31 +16,48 @@
 # Imagine que você está trabalhando com dados de sensores IoT. 
 # Os dados incluem medições de temperatura. Você precisa classificar cada leitura 
 # como 'Baixa', 'Normal' ou 'Alta'. Considerando que:
-temperatura = 60
-if temperatura >= 60:
-    print('temperatura alta')
-elif temperatura < 60 and temperatura > 20:
-    print('temperatura normal')
-else:
-    print('temperatura baixa!')
+# temperatura = 60
+# if temperatura >= 60:
+#     print('temperatura alta')
+# elif temperatura < 60 and temperatura > 20:
+#     print('temperatura normal')
+# else:
+#     print('temperatura baixa!')
 
 ### Exercício 3: Filtragem de Logs por Severidade
 # Você está analisando logs de uma aplicação e precisa filtrar mensagens 
 # com severidade 'ERROR'. Dado um registro de log em formato de dicionário 
 # como `log = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}`, 
 # escreva um programa que imprima a mensagem se a severidade for 'ERROR'.
+# log = {'timestamp': '2021-06-23 10:00:00', 'level': 'ERROR', 'message': 'Falha na conexão'}
+# if log['level'].upper() == 'ERROR':
+#     print(log['message'])
+# else:
+#     print('tudo certo.') 
 
 ### Exercício 4: Validação de Dados de Entrada
 # Antes de processar os dados de usuários em um sistema de recomendação, 
 # você precisa garantir que cada usuário tenha idade entre 18 e 65 anos e tenha 
 # fornecido um email válido. Escreva um programa que valide essas condições 
 # e imprima "Dados de usuário válidos" ou o erro específico encontrado.
+# idade: int = int(input('informe a idade'))
+# email: str = str(input('informe o email'))
+
+# if not (idade >= 18 and idade <= 65):
+#     print('idade invalida.')
+# if not ('@' in email):
+#     print('email invalido')
+# else:
+#     print('Dados validos!')
+    
 
 ### Exercício 5: Detecção de Anomalias em Dados de Transações
 # Você está trabalhando em um sistema de detecção de fraude e precisa identificar 
 # transações suspeitas. Uma transação é considerada suspeita se o valor for superior 
 # a R$ 10.000 ou se ocorrer fora do horário comercial (antes das 9h ou depois das 18h). 
 # Dada uma transação como `transacao = {'valor': 12000, 'hora': 20}`, verifique se ela é suspeita.
+
+
 
 ### Exercício 6. Contagem de Palavras em Textos
 # Objetivo:** Dado um texto, contar quantas vezes cada palavra única aparece nele.
