@@ -1,0 +1,8 @@
+id,produto,quantidade,preco,vendedor,cidade,categoria
+1,Camisa,3,79.9,Ana,São Paulo,Vestuário
+2,Tênis,1,299.9,João,Rio de Janeiro,Calçados
+3,Calça Jeans,2,149.9,Ana,São Paulo,Vestuário
+4,Boné,5,49.9,Marcos,Belo Horizonte,Acessórios
+5,Meias,10,9.9,João,Curitiba,Vestuário
+6,Camisa,1,79.9,Ana,Rio de Janeiro,Vestuário
+7,Tênis,2,299.9,Marcos,São Paulo,Calçados
