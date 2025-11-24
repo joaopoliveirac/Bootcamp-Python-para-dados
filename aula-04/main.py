@@ -10,3 +10,6 @@ with open(caminho, 'r', encoding='utf-8') as arquivo:
         dados.append(linha)
 
 print(dados)
+
+#teste
+#teste
