@@ -118,10 +118,28 @@
 # print(par_ou_impar(3))
 
 # 18- Desenvolva uma função que receba uma string como argumento e retorne essa string revertida.
-def receba(texto: str):
-    return texto[::-1]
-
-print(receba('joao'))
+# def receba(texto: str):
+#     return texto[::-1]
+# print(receba('joao'))
 
 # 19- Implemente uma função que receba dois argumentos: uma lista de números e um número. A função deve retornar todas as combinações de pares na lista que somem ao número dado.
+# def somar(lista: list, numero: int):
+#     soma = [x + numero for x in lista]
+#     pares = [par for par in soma if par % 2 == 0]
+#     return pares
+
+# print(somar([10,2,5,7,15], 5))
+
 # 20- Escreva uma função que receba um dicionário e retorne uma lista de chaves ordenadas
+# def ordenacao(valores: dict):
+#     ordenado = sorted(valores)
+#     return ordenado
+
+# def ordenacao1(valores: dict):
+#     ordenado = sorted(valores.items(), key= lambda x: x[1])
+#     return ordenado
+
+# dicionario = {'nome': 'joao', 'teste': 'pedro', 'teste1': 'a', 'teste2': 'b'}
+# print(ordenacao(dicionario))
+# print(ordenacao1(dicionario))
+    
