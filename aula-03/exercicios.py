@@ -134,21 +134,54 @@ from datetime import time
 
 # print(total)
 
-
-
 ### Exercícios com WHILE
 
 ### Exercício 11. Leitura de Dados até Flag
 # Ler dados de entrada até que uma palavra-chave específica ("sair") seja fornecida.
+# while True:
+#     entrada = input('digite: ')
+#     if entrada.lower() == 'sair':
+#         break
+#     else:
+#         print('entrada invalida')
 
 ### Exercício 12. Validação de Entrada
 # Solicitar ao usuário um número dentro de um intervalo específico até que a entrada seja válida.
+# intervalo = [0,10]
+# inter_min = min(intervalo)
+# inter_max = max(intervalo)
 
+# while True:
+#     numero = float(input('informe um numero'))
+#     if numero >= inter_min and numero <= inter_max:
+#         print('dentro do intervalo')
+#         break
+#     else:
+#         print('numero fora do intervalo. tente novamente')
+   
 ### Exercício 13. Consumo de API Simulado
 # Simular o consumo de uma API paginada, onde cada "página" de dados é processada em loop até que não haja mais páginas.
+# paginas_api = 15
+# contador = 0
+
+# while paginas_api != contador:
+#     contador += 1
+#     print(f'consumimos a pagina {contador}')
 
 ### Exercício 14. Tentativas de Conexão
 # Simular tentativas de reconexão a um serviço com um limite máximo de tentativas.
+# limite = 5
+# tentativa = 0
+
+# while tentativa < limite:
+#     tentativa += 1
+#     print(f'tentativa {tentativa}')
 
 ### Exercício 15. Processamento de Dados com Condição de Parada
 # Processar itens de uma lista até encontrar um valor específico que indica a parada.
+# dados = [10,5,6,9,60,80,1300]
+
+# if 1300 in dados:
+#     print('condicao verificada.')
+# else:
+#     print('sem condicao')
